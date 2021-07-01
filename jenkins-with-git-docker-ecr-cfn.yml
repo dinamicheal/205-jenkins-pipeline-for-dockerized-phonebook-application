@@ -13,7 +13,7 @@ Description: |
   Jenkins Server is configured with admin user `call-jenkins` and password `Call-jenkins1234`.
 
 Parameters:
-  KeyPairName:
+  KeyPairName:key2.pem
     Description: Enter the name of your Key Pair for SSH connections.
     Type: AWS::EC2::KeyPair::KeyName
     ConstraintDescription: Must one of the existing EC2 KeyPair
